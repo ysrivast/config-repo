@@ -1,0 +1,9 @@
+inventory:
+  service:
+    url: http://inventory-service/api/v1/inventory/
+
+grpc:
+  client:
+    grpc-inventory-service:
+      address: static://localhost:9090
+      negotiation-type: plaintext
